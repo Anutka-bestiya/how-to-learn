@@ -18,6 +18,7 @@
   background-color: #f2f2f2;
   z-index: -1;
 }
+
 .logo {
   height: 32px;
   width: 228px;
@@ -54,6 +55,7 @@
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .header__main-illustration {
@@ -272,4 +274,69 @@
   height: 877px;
   right: -210px;
   top: 0;
+}
+
+/*footer*/
+
+.footer__columns {
+  /*border: red 1px solid;*/
+  margin: 0 auto;
+  width: 90%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  min-height: 250px;
+  background-color: #1f1f1f;
+  padding: 60px 5% 40px;
+}
+
+.footer__column_content_copyright {
+  /*border: red 1px solid;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.footer__author {
+  /*border: red 1px solid;*/
+  padding: 18px 0;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  margin: 0;
+  margin-bottom: 20px;
+  /*border: red 1px solid;*/
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.footer__column-links {
+  /*border: red 1px solid;*/
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__column-link {
+  /*border: red 1px solid;*/
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+}
+
+.footer__column-link:last-of-type {
+  /*border: rebeccapurple 1px solid;*/
+  margin-bottom: 16px;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
 }
