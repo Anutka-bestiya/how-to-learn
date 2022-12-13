@@ -89,7 +89,7 @@
   justify-content: space-between;
 }
 
-.two-column__brief {
+.two-columns__brief {
   max-width: 175px;
   margin: 0;
   color: #2f80ed;
@@ -98,7 +98,7 @@
   font-weight: normal;
 }
 
-.two-column__main-text {
+.two-columns__main-text {
   width: 80%;
   min-width: 784px;
   display: flex;
@@ -110,11 +110,11 @@
   font-weight: normal;
 }
 
-.two-column__paragraph {
+.two-columns__paragraph {
   margin: 0;
 }
 
-.two-column__span-accent {
+.two-columns__span-accent {
   font-weight: 600;
 }
 
@@ -149,11 +149,15 @@
 }
 
 .table {
+  /*border: red 1px solid;*/
   max-width: 1100px;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-end;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .table__cell {
