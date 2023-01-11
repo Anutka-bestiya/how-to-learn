@@ -12,3 +12,8 @@
   /*border: rebeccapurple 1px solid;*/
   margin-bottom: 16px;
 }
+
+.footer__column-link:hover {
+  transition: opacity 2s ease;
+  opacity: 0.5;
+}
