@@ -1,0 +1,8 @@
+.section-title {
+  /*border: red 1px solid;*/
+  max-width: 60vw;
+  margin: 0;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: 600;
+}

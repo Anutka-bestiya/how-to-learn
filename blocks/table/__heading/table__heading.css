@@ -1,0 +1,12 @@
+.table__heading {
+  /*border: red 1px solid;*/
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 600;
+}
+
+.table__heading:first-of-type {
+  /*border: blueviolet 1px solid;*/
+  margin-bottom: 20px;
+}

@@ -1,0 +1,14 @@
+.footer__column-link {
+  margin: 0;
+  /*border: red 1px solid;*/
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+}
+
+.footer__column-link:last-of-type {
+  /*border: rebeccapurple 1px solid;*/
+  margin-bottom: 16px;
+}
