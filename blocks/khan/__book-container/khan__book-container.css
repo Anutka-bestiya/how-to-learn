@@ -3,4 +3,8 @@
   margin-top: 68px;
   padding: 0;
   position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  justify-content: flex-start;
 }
