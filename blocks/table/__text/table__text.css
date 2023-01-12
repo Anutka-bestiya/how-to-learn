@@ -1,5 +1,4 @@
 .table__text {
-  /*border: red 1px solid;*/
   margin: 0;
   font-size: 18px;
   line-height: 1.2;
@@ -7,6 +6,5 @@
 }
 
 .table__text:not(:first-of-type) {
-  /*border: blueviolet 1px solid;*/
   margin-top: 20px;
 }
