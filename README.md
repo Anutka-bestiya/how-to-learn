@@ -30,9 +30,9 @@
 
 ```html
 <form>
-  <label for="first-name">Имя</label>
+  <label for="first-name">Имя:</label>
   <input type="text" id="first-name" name="first-name" required />
-  <label for="tel">Телефон</label>
+  <label for="tel">Телефон:</label>
   <input type="tel" id="tel" name="tel" required />
   <input type="submit" value="Отправить форму" />
 </form>
