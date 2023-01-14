@@ -1,6 +1,6 @@
 .resources__link {
   display: block;
-  height: 38px;
+  font-size: 0;
 }
 
 .resources__link:hover {
